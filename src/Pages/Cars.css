@@ -1,0 +1,7 @@
+.card-car-style h1 {
+  border-bottom: 2px solid black;
+}
+
+.card-car-style h1 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,24 @@
+/* .contact {
+  margin: 80px;
+  text-align: center;
+  height: 95vh;
+  width: 95vw;
+  background-image: url("/public/images/contact-background.jpg");
+  background-size: cover;
+} */
+.contact {
+  background: url("/public/images/contact-background.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.findUs {
+  color: rgb(255, 255, 255);
+  padding-top: 450px;
+  padding-left: 50px;
+  font-size: 1.7rem;
+}

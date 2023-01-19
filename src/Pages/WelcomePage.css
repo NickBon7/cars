@@ -1,0 +1,33 @@
+.welcome video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.welcome h2 {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 100px;
+}
+
+.welcome h2:hover {
+  font-size: 2.3rem;
+}
+
+.ft {
+  color: aliceblue;
+  position: absolute;
+  bottom: 0;
+}
+
+.carRoad {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}

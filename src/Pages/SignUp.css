@@ -1,0 +1,42 @@
+.signupTitle {
+  text-align: center;
+  margin: 50px;
+  border-bottom: 2px solid rgb(77, 77, 77);
+  color: rgb(77, 77, 77);
+}
+
+.formStyle {
+  text-align: center;
+}
+
+.formStyle div {
+  margin-bottom: 50px;
+}
+
+.formStyle button {
+  padding: 12px;
+  background-color: rgb(34, 108, 194);
+  color: black;
+  border: none;
+}
+
+.formStyle button:hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.formStyle label {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.formStyle p {
+  color: rgb(223, 124, 124);
+}
+
+.formStyle input {
+  border: 1px solid rgb(34, 108, 194);
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 5px;
+}

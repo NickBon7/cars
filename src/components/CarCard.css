@@ -1,0 +1,81 @@
+.card-container {
+  width: 400px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in-out;
+  margin: 15px;
+  display: inline-block;
+}
+
+.card-container:hover {
+  box-shadow: 0px 0px 15px 0px;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+}
+
+.image-container img {
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3,
+p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.modalImg {
+  display: flex;
+  justify-content: center;
+}
+
+.modalTitle {
+  display: inline-block;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+  width: 15rem;
+}
+.modalHeader {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.modalBtn {
+  padding: 0.5rem;
+  background-color: rgb(75, 186, 223);
+  border: none;
+  transition: 0.2s;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.modalBtn:hover {
+  background-color: rgb(162, 209, 224);
+}
+
+.modalP {
+  font-size: 25px;
+  color: rgb(53, 51, 51);
+  margin-top: 12px;
+}
+
+.modalC {
+  text-align: center;
+}
